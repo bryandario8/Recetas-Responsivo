@@ -1,0 +1,236 @@
+html{
+	background-color: #F5F5DC;
+}
+
+
+
+@media only screen and (max-width : 480px) {
+	#titulo_sitio{
+		width: 100%;
+		text-align: center;
+		font-size: 2em!important;
+		margin: 2px 0!important;
+	}
+
+	body{
+
+	}
+
+	#resumenes{
+		display: block;
+		width: 100%!important;
+	}
+
+	[class*="receta"]{
+		display: block!important;
+		width: 90%!important;
+		height: 60px!important;
+		margin: 5px!important;
+	}
+
+	h4 + p{
+		display: none;
+	}
+
+	[class*="receta"] header,	header h3{   /* alto de titulos recetas*/
+		margin: 0!important;
+		height: 20%;
+	}
+
+	[class*="descripcion_completa"]{
+		display: none!important;
+	}
+
+	#detalles{
+		display: inline-block!important;
+		width: 100%!important;
+		margin: 10% 0!important;
+	}
+
+	[class^="completa"]{
+			width: 48%!important;
+			height: 220px!important;
+	}
+
+	[class^="completa"] figure{
+		margin: 0!important;
+		width: 100%!important;
+	}
+
+	[class^="completa"] figure img{
+		width: 100%!important;
+	}
+	#detalle{
+		width: 90%!important;
+		height: 10%!important;
+		display: inline-flex;
+	}
+	#detalles div{
+		display: inline-block!important;
+		vertical-align: top;
+	}
+	#detalle h2{    /*mas titulos*/
+		font-size: 1em;
+		position: relative;
+		top: -235px;
+		width: 100%!important;
+		text-align: center;
+		/*height: 20%!important;*/
+	}
+	audio{
+		right: 0!important;
+		width: 100%!important;
+	}
+
+	.audio1{
+		width: 100%!important;
+		position: relative;
+		top: -90px;
+	}
+	.audio2{
+		width: 100%!important;
+		position: relative;
+		top: -110px;
+	}
+	.audio3{
+		width: 100%!important;
+		position: relative;
+		top: -110px;
+	}
+}
+
+
+
+#titulo_sitio{   /* 1 */
+	font-size: 4em;
+	color: #d39a0a;
+	text-shadow: 5px 5px 5px #bc8609;
+
+}
+
+body{
+	background-image: url(dinner_plate.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	/*background-color: transparent;*/
+	background-size: 60%;
+
+
+}
+
+
+#resumenes{
+	display: inline-block;
+	height: 260px;
+	margin: 2% 1%;
+}
+
+[class*="receta"]{
+	/*position: absolute;*/
+	border-radius: 25px;    /* 3a */
+	margin: 1% 2%;      /* 3g */
+	border: 2pt solid #DC143C;
+	padding: 1.5%;
+	width: 12%;
+	max-height: 100%;
+	/*height: 20%;*/
+	display: inline-block;
+	vertical-align: top;
+}
+
+.receta1{   /* 3b */
+	background-image: url("http://recetas.eluniverso.com/wp-content/media/ceviche-de-camaron-con-mango.jpg");
+	background-repeat: no-repeat;
+	background-size: 420px;
+}
+
+.receta2{
+	background-image: url('http://recetas.eluniverso.com/wp-content/media/morocho1.jpg');
+	background-size: 420px;
+	background-repeat: no-repeat;
+	/*right: 150px;*/
+}
+
+
+.receta3{
+	background-image: url('http://recetas.eluniverso.com/wp-content/media/12.-CARNEMECHADA.jpg');
+	background-size: 540px;
+	background-repeat: no-repeat;
+	/*right: 380px;*/
+}
+
+.receta4{
+	background-image: url('http://recetas.eluniverso.com/wp-content/media/caldo-de-pata.jpg');
+	background-size: 420px;
+	background-repeat: no-repeat;
+	/*right: 600px;*/
+}
+
+.receta5{
+	background-image: url('http://recetas.eluniverso.com/wp-content/media/corviche.jpg');
+	background-size: 420px;
+	background-repeat: no-repeat;
+
+	/*right: 830px;*/
+}
+
+h3 a{    /* 3c */
+	font-variant: small-caps;
+}
+
+h4{      /* 3d */
+	color: #d69f2a;
+}
+
+#descripcion{  /*  3e */
+	font-size: 10px;
+	text-align: justify;
+}
+
+p{
+	text-align: justify;
+
+}
+
+p[class^="descripcion_completa"], audio{
+	position: relative;
+	right: -30px;
+
+}
+
+h3 a:visited{
+	color: #7c652e;
+}
+
+div header{
+	height: 80px;
+	display: inline-block;
+}
+
+div div[id^="cat"]{
+	height: 90px;
+}
+
+
+
+#detalles{
+	margin: 2% 22%;
+
+}
+
+figure, #detalle{
+	display: inline-block;
+	margin: 10px
+}
+
+#detalle{
+	width: 60%;
+
+}
+
+
+
+div[class^="completa"]{
+	border-bottom: 5px solid #DEB887;
+	margin: 10px 0;
+}
