@@ -4,7 +4,7 @@ html{
 
 
 
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 550px) {
 	#titulo_sitio{
 		width: 100%;
 		text-align: center;
@@ -26,6 +26,12 @@ html{
 		width: 90%!important;
 		height: 60px!important;
 		margin: 5px!important;
+		background-size: 100%!important;
+	}
+
+	/*categoria alineada a la derecha*/
+	h4{
+		text-align: right;
 	}
 
 	h4 + p{
@@ -35,6 +41,7 @@ html{
 	[class*="receta"] header,	header h3{   /* alto de titulos recetas*/
 		margin: 0!important;
 		height: 20%;
+
 	}
 
 	[class*="descripcion_completa"]{
@@ -104,7 +111,7 @@ html{
 #titulo_sitio{   /* 1 */
 	font-size: 4em;
 	color: #d39a0a;
-	text-shadow: 5px 5px 5px #bc8609;
+	text-shadow: 2px 2px 2px #bc8609;
 
 }
 
@@ -202,6 +209,11 @@ h3 a:visited{
 	color: #7c652e;
 }
 
+h3 a:hover{
+	text-decoration: none;
+	color: #edc163;
+}
+
 div header{
 	height: 80px;
 	display: inline-block;
@@ -214,7 +226,7 @@ div div[id^="cat"]{
 
 
 #detalles{
-	margin: 2% 22%;
+	margin: 4% 22%;
 
 }
 
@@ -233,4 +245,9 @@ figure, #detalle{
 div[class^="completa"]{
 	border-bottom: 5px solid #DEB887;
 	margin: 10px 0;
+}
+
+[class*="receta"]:hover{
+	/*background:*/ 
+	opacity: 0.7;
 }
